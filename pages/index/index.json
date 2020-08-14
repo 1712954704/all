@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "nav": "../nav/nav",
+    "slide": "../slideshow/slideshow",
+    "main_vote": "../main_vote/vote"
+  },
+  "navigationBarTitleText": "首页"
+}

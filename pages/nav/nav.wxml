@@ -1,0 +1,11 @@
+<!--nav.wxml-->
+<view  class="footer"  bindtap="skip" data-path="../main_vote/vote">
+    <view class="footer_align">
+        <iconfont name="daohangshouye"></iconfont>
+        <text>首页</text>
+    </view>
+    <view class="footer_align" bindtap="skip" data-path="slide">
+        <iconfont name="wode2"></iconfont>
+        <text>我的</text>
+    </view>
+</view>

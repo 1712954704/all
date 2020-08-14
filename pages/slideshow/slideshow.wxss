@@ -1,0 +1,6 @@
+.carouselImg {
+  width: 100%;
+}
+.carousel_swiper {
+  height: 240px;
+}

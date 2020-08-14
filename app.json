@@ -1,0 +1,46 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/nav/nav",
+    "pages/slideshow/slideshow",
+    "pages/main_vote/vote"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "十方观",
+    "navigationBarTextStyle":"black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "usingComponents": {
+    "iconfont": "/iconfont/iconfont"
+  },
+  "tabBar": {
+    "color": "#000",
+    "selectedColor": "#39a336",
+    "borderStyle": "white",
+    "backgroundColor": "#f0f0f0",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/index.png",
+        "selectedIconPath": "images/index_select.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "iconPath": "images/hello.png",
+        "selectedIconPath": "images/hello_select.png",
+        "text": "日志"
+      },
+      {
+        "pagePath": "pages/main_vote/vote",
+        "iconPath": "images/me.png",
+        "selectedIconPath": "images/me_select.png",
+        "text": "我的"
+      }
+    ]
+  }
+}
