@@ -1,38 +1,8 @@
 <!--index.wxml-->
 <view class="whole">
   <slide></slide>
-  <view class="container">
-    <view>
-      <text class="red">
-        2020 我的眼睛我代言
-      </text>
-    </view>
-    <view style="padding: 6px;">
-     <text>
-        我的眼睛我代言,让我们的邂逅成为永久的想念!第一届寻找中国最美眼睛代言人活动进行时
-      </text>
-    </view>
-    <!-- 点赞列表 -->
-    <view class="list">
-      <block wx:for="{{list}}"  wx:key="key">
-        <view class="list_item">
-          <view class="list_locate">
-            <!-- <text>111</text> -->
-            <image class="img" src="{{host}}{{item.image}}"></image>
-            <view class="poll">
-              得票:{{item.poll}}
-            </view>
-          </view>
-          <text>{{item.name}}</text>
-          <view>
-            <text>{{item.intro}}</text>
-          </view>
-          <view class="redbg" bindtap="vote" data-id="{{item.id}}">
-            <text>投票</text>
-          </view>
-        </view>
-      </block>
-    </view>
-  </view>
-  <!-- <nav></nav> -->
+</view>
+
+<view>
+
 </view>

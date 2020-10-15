@@ -4,7 +4,8 @@
     "pages/logs/logs",
     "pages/nav/nav",
     "pages/slideshow/slideshow",
-    "pages/main_vote/vote"
+    "pages/main_vote/vote",
+    "pages/zone/zone"
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -30,10 +31,10 @@
         "text": "首页"
       },
       {
-        "pagePath": "pages/logs/logs",
+        "pagePath": "pages/zone/zone",
         "iconPath": "images/hello.png",
         "selectedIconPath": "images/hello_select.png",
-        "text": "日志"
+        "text": "分区"
       },
       {
         "pagePath": "pages/main_vote/vote",
